@@ -1,0 +1,3 @@
+### git config user.name - Mostra o nome de usuário configurado.
+### git config user.email - Mostra o e-mail do usuário configurado.
+### git help -a - Mostra a lista de comandos do git. 
