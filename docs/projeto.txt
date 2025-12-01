@@ -1,3 +1,4 @@
 ### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
 ### git log --oneline - Mostra de forma resumida os commits.
 ### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
+### git diff - mostra as alterações realizadas no arquivo.
