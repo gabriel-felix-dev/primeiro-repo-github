@@ -1,0 +1,3 @@
+### git log - mostra todos os commits realizados
+### git show - mostra o ultimo commit realizado.
+### git -n 2 - mostra os dois ultimos commits realizados.
