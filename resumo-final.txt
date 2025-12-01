@@ -1,0 +1,205 @@
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        codigo/
+        docs/
+        estados-git.txt
+        exercicio1.txt
+        exercicio3.txt
+        historico-analise.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git add docs/
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git commit -m"feat/exercicio-5: Adicona a documentação do projeto"
+[master fd19afd] feat/exercicio-5: Adicona a documentação do projeto
+ 2 files changed, 6 insertions(+)
+ create mode 100644 docs/projeto.txt
+ create mode 100644 docs/referencias.txt
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git add codigo/
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git commit -m"feat/exercicio-5: Adicona os arquivos de código"
+[master 81b677c] feat/exercicio-5: Adicona os arquivos de código
+ 2 files changed, 6 insertions(+)
+ create mode 100644 codigo/auxiliar.txt
+ create mode 100644 codigo/principal.txt
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   codigo/principal.txt
+        modified:   docs/projeto.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        estados-git.txt
+        exercicio1.txt
+        exercicio3.txt
+        historico-analise.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git diff
+diff --git a/codigo/principal.txt b/codigo/principal.txt
+index 2785cac..8773240 100644
+--- a/codigo/principal.txt
++++ b/codigo/principal.txt
+@@ -1,3 +1,4 @@
+@@ -1,3 +1,4 @@
+ ### git log - mostra todos os commits realizados
+ ### git show - mostra o ultimo commit realizado.
+-### git -n 2 - mostra os dois ultimos commits realizados.
+\ No newline at end of file
++### git -n 2 - mostra os dois ultimos commits realizados.
++### git -n 3 - mostra os dois ultimos commits realizados.
+\ No newline at end of file
+diff --git a/docs/projeto.txt b/docs/projeto.txt
+index 97bba71..b41676a 100644
+--- a/docs/projeto.txt
++++ b/docs/projeto.txt
+@@ -1,3 +1,4 @@
+ ### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
+ ### git log --oneline - Mostra de forma resumida os commits.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
+ ### git show - mostra o ultimo commit realizado.
+-### git -n 2 - mostra os dois ultimos commits realizados.
+\ No newline at end of file
++### git -n 2 - mostra os dois ultimos commits realizados.
++### git -n 3 - mostra os dois ultimos commits realizados.
+\ No newline at end of file
+diff --git a/docs/projeto.txt b/docs/projeto.txt
+index 97bba71..b41676a 100644
+--- a/docs/projeto.txt
++++ b/docs/projeto.txt
+@@ -1,3 +1,4 @@
+### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
+ ### git log --oneline - Mostra de forma resumida os commits.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
+\ No newline at end of file
++### git -n 2 - mostra os dois ultimos commits realizados.
++### git -n 3 - mostra os dois ultimos commits realizados.
+\ No newline at end of file
+diff --git a/docs/projeto.txt b/docs/projeto.txt
+index 97bba71..b41676a 100644
+--- a/docs/projeto.txt
++++ b/docs/projeto.txt
+@@ -1,3 +1,4 @@
+ ### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
+ ### git log --oneline - Mostra de forma resumida os commits.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
++### git -n 2 - mostra os dois ultimos commits realizados.
++### git -n 3 - mostra os dois ultimos commits realizados.
+\ No newline at end of file
+diff --git a/docs/projeto.txt b/docs/projeto.txt
+index 97bba71..b41676a 100644
+--- a/docs/projeto.txt
++++ b/docs/projeto.txt
+@@ -1,3 +1,4 @@
+ ### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
+ ### git log --oneline - Mostra de forma resumida os commits.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
++### git -n 3 - mostra os dois ultimos commits realizados.
+\ No newline at end of file
+diff --git a/docs/projeto.txt b/docs/projeto.txt
+index 97bba71..b41676a 100644
+--- a/docs/projeto.txt
++++ b/docs/projeto.txt
+@@ -1,3 +1,4 @@
+ ### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
+ ### git log --oneline - Mostra de forma resumida os commits.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
+\ No newline at end of file
+diff --git a/docs/projeto.txt b/docs/projeto.txt
+index 97bba71..b41676a 100644
+--- a/docs/projeto.txt
++++ b/docs/projeto.txt
+@@ -1,3 +1,4 @@
+### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
+ ### git log --oneline - Mostra de forma resumida os commits.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
+index 97bba71..b41676a 100644
+--- a/docs/projeto.txt
++++ b/docs/projeto.txt
+@@ -1,3 +1,4 @@
+ ### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
+ ### git log --oneline - Mostra de forma resumida os commits.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
++++ b/docs/projeto.txt
+@@ -1,3 +1,4 @@
+ ### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
+ ### git log --oneline - Mostra de forma resumida os commits.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
+@@ -1,3 +1,4 @@
+ ### git log --author"Nome do autohor" - Mostra os commits realizados por um autor especifico.
+ ### git log --oneline - Mostra de forma resumida os commits.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
+-### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
+\ No newline at end of file
++### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
++### git diff - mostra as alterações realizadas no arquivo.
+\ No newline at end of file
+\ No newline at end of file
++### git log --oneline --graph - Mostra os commits de forma resumido junto à árvore de branches e merge.
++### git diff - mostra as alterações realizadas no arquivo.
+\ No newline at end of file
++### git diff - mostra as alterações realizadas no arquivo.
+\ No newline at end of file
+
+\ No newline at end of file
+
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git add codigo/principal.txt
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git commit -m"feat/exercico-5: Novo comando adicionado aos documentos dos códigos"
+[master ef2713b] feat/exercico-5: Novo comando adicionado aos documentos dos códigos
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git add docs/projeto.txt
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git commit -m"feat/exercico-5: Novo comando adicionado aos arquivos do projeto."
+[master 5bc8615] feat/exercico-5: Novo comando adicionado aos arquivos do projeto.
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ ls -a
+./  ../  .git/  arquivo1.txt  arquivo2.txt  codigo/  docs/  estados-git.txt  exercicio1.txt  exercicio3.txt  historico-analise.txt  README.md  tarefas.txt
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        estados-git.txt
+        exercicio1.txt
+        exercicio3.txt
+        historico-analise.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git add .gitignore
+
+Gabriel@anna MINGW64 /c/Repositorios/meu-primeiro-repo (master)
+$ git commit -m"Adicionando o gitignore"
+[master cd75a24] Adicionando o gitignore
+ 1 file changed, 18 insertions(+)
+ create mode 100644 .gitignore
+
+
