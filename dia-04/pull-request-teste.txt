@@ -1,0 +1,68 @@
+# Sequência realizada na atividade: 
+
+## git checkout -b feature/readme-update - Cria e muda para a branch feature/readme-update;
+
+## git add README.md - Adiciona o arquivo à stage;
+
+## git commit -m"feature/readme-update: Atualização no README informando que a pasta da atividade Dia04 foi criada." - Cria um commit do arquivo na stage;
+
+## git push -u origin feature/readme-update - Configura e realiza o primeiro push das alterações ao repositório remoto;
+
+    git push -u origin feature/readme-update
+    Enumerating objects: 15, done.
+    Counting objects: 100% (15/15), done.
+    Delta compression using up to 16 threads
+    Compressing objects: 100% (11/11), done.
+    Writing objects: 100% (13/13), 1.54 KiB | 262.00 KiB/s, done.
+    Total 13 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+    remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+    remote:
+    remote: Create a pull request for 'feature/readme-update' on GitHub by visiting:
+    remote:      https://github.com/gabriel-felix-dev/primeiro-repo-github/pull/new/feature/readme-update
+    remote:
+    To https://github.com/gabriel-felix-dev/primeiro-repo-github.git
+    * [new branch]      feature/readme-update -> feature/readme-update
+    branch 'feature/readme-update' set up to track 'origin/feature/readme-update'.
+
+## GitHub - Pull Request: 
+
+### Title: feature/readme-update: Atualização no README informando que a pasta da atividade Dia04 foi criada.
+
+### Description: Atualiza informações dentro do arquivo README.md para deixar registrado a criação da pasta e dos arquivos da atividade Dia04.
+
+### Comentário adicionado à PR: Só tem a informação da criação da pasta da atividade Dia04. Falta o comentário da criação das documentações.
+
+## Alterações no README realizadas
+
+## git add README.md - Adiciona o arquivo alterado na stage novamente;
+
+## git commit -m"feature/readme-update: Atualizações solicitadas realizadas" - Cria um commit do novo arquivo na stage;
+
+## git push - Envia as informações para o repositório remoto;
+
+## GitHub - PR aprovado: 
+
+### Title: Merge pull request #1 from gabriel-felix-dev/feature/readme-update
+
+### Description: feature/readme-update: Atualização no README informando que a pasta da atividade e suas documentações Dia04 foram criadas.
+
+## git checkout main - Muda para branch main;
+
+## git branch -d feature/readme-update - Deleta a branch local feature/readme-update;
+
+    warning: deleting branch 'feature/readme-update' that has been merged to
+    'refs/remotes/origin/feature/readme-update', but not yet merged to HEAD
+    Deleted branch feature/readme-update (was 704f457).
+
+## git pull - Puxa as informações do repositório remoto;
+
+    remote: Enumerating objects: 1, done.
+    remote: Counting objects: 100% (1/1), done.
+    remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+    Unpacking objects: 100% (1/1), 991 bytes | 198.00 KiB/s, done.
+    From https://github.com/gabriel-felix-dev/primeiro-repo-github
+    8d9d547..50536d9  main       -> origin/main
+    Updating eab1f81..50536d9   
+    Fast-forward
+    README.md | 6 ++++--
+    1 file changed, 4 insertions(+), 2 deletions(-)

@@ -1,0 +1,64 @@
+# Sequência realizada na atividade:
+
+## git branch sprint - Criou uma branch chamada sprint;
+
+## git branch next - Criou uma branch chamada next;
+
+## git branch - Verificando as branchs criadas;
+
+## git checkout sprint - Mudou para o branch sprint;
+
+## git branch feature/login - Cria a branch feature/login;
+
+## git ckeckout feature/login - Muda para a branch feature/login;
+
+## touch login.txt - Cria o arquivo login.txt;
+
+## git add login.txt - Adiciona o login.txt à stage;
+
+## git commit -m"feature/login:Ccriação da documentação da feature login" - Faz um commit do documento da stage;
+
+## git checkout sprint - Muda para a branch sprint;
+
+## git merge feature/login - Faz o merge da branch feature/login para a branch merge;
+
+    Updating d365092..eab1f81
+    Fast-forward
+    login.txt | 1 +
+    1 file changed, 1 insertion(+)
+    create mode 100644 login.txt
+
+## git checkout main - Muda para branch main;
+
+    Switched to branch 'main'
+    Your branch is ahead of 'origin/main' by 2 commits.
+    (use "git push" to publish your local commits)
+
+## git merge sprint Faz o merge da branch sprint na branch main;
+
+    Updating d365092..eab1f81
+    Fast-forward
+    login.txt | 1 +
+    1 file changed, 1 insertion(+)
+    create mode 100644 login.txt
+
+## git checkout next - Muda para a branch next;
+
+## git checkout -b feature/cadastro - Cria e muda para branch feature/cadastro;
+
+## touch cadastro.txt - Cria o arquivo cadastro.txt;
+
+## git add cadastro.txt - Adiciona o cadastro.txt à stage;
+
+## git commit -m"feature/cadastro: criação da documentação da feature cadastro" - Realiza o commit do arquivo na stage;
+
+## git checkout next - Muda para a branc next;
+
+## git merge feature/cadastro - Faz o merge das informação da branch feature/cadastro para a branch next;
+
+    git merge feature/cadastro
+    Updating d365092..5c01a25
+    Fast-forward
+    cadastro.txt | 0
+    1 file changed, 0 insertions(+), 0 deletions(-)
+    create mode 100644 cadastro.txt

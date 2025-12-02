@@ -1,0 +1,33 @@
+# git merge <nome da branch>
+
+    - Realiza o merge dos arquivos da branch indicada. 
+
+# git branch -d <nome da branch>
+
+    - Deleta uma branch 
+
+# git branch -D <nome da branch>
+
+    - Deleta uma branch de forma forçada
+
+# Sequência realizada na atividade:
+
+## git checkout main - Troca para branch main;
+
+## git merge feature/menu - Faz o merge das informações da branch feature/menu para a branch main;
+
+## git branch -d feature/menu - deleta a branch feature/menu;
+
+## git branch - Verifica as branchs e confirma se a branch feature/menu foi de fato deletada;
+
+## git checkout -b feature/calculadora - Cria uma branch chamada feature/calculadora e já faz a troca para ela;
+
+## touch calc.txt - Cria um arquivo chamado calc.txt;
+
+## git add cacl.txt - Adiciona o arquivo calc.txt à stage;
+
+## git commit -m"feature/calculadora: criação da documentação da calculadora" - Realiza um commit na branch feature/calculadora;
+
+## git checkout main - Muda para a branch main;
+
+## git merge feature/calculadora - Realiza o merge dos arquivos da feature/calculadora para a branch main;
