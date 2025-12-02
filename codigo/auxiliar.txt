@@ -1,3 +1,0 @@
-### git init - inicializa um repositório
-### git add . - adiciona todos os arquivos de uma pasta para a stage
-### git commit -m "Mensagem" - Realiza um commit com uma mensagem dos arquivos que foram adicionados

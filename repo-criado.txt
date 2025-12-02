@@ -1,5 +1,0 @@
-# Repositório remoto GitHub
-
-## Nome do repositório remoto: primeiro-repo-github
-## URL HTTPS: https://github.com/gabriel-felix-dev/primeiro-repo-github.git
-## URL SSH: git@github.com:gabriel-felix-dev/primeiro-repo-github.git
