@@ -1,12 +1,12 @@
 # Sequência de comandos utilizados:
 
-## git branch feature/header 
+## git branch feature/header - Cria uma branch feature/header;
 
-## git branch feature/footer 
+## git branch feature/footer - Cria uma branch feature/footer;
 
-## git branch feature/sidebar
+## git branch feature/sidebar - Cria uma branch feature/sidebar;
 
-## git branch
+## git branch - Informa as branch que estão configuradas;
 
     feature/cadastro
     feature/calculadora
@@ -18,44 +18,92 @@
     next
     sprint
 
-## git checkout feature/header
+## git checkout feature/header - Muda para a branch feature/header;
 
-## touch header.txt
+## touch header.txt - Cria o arquivo header.txt;
 
-## git add header.txt
+## git add header.txt - Adiciona o header.txt à stage;
 
-## git commit -m"feature/header: criação da documentação do header"
+## git commit -m"feature/header: criação da documentação do header" - Versiona o arquivo da stage;
 
-## git push -u origin feature/header
+## git push -u origin feature/header - Envia o PR para o repositório remoto;
 
-## git checkout feature/login
+## PR - GitHud:
 
-## touch login.txt
+### Title: feature/header: criação da documentação do header;
 
-## git add login.txt
+### Description: Criação da documentação do header;
 
-## git commit -m"feature/login: criação da documentação do login"
+## git checkout feature/sidebar - Muda para a branch feature/sidebar;
 
-## git push -u origin feature/login
+## touch sidebar.txt - Cria o arquivo header.txt;
 
-## git checkout feature/footer
+## git add sidebar.txt - Adiciona o sidebar.txt à stage;
 
-## touch footer.txt
+## git commit -m"feature/sidebar: criação da documentação do sidebar" - Versiona o arquivo da stage;
 
-## git add footer.txt
+## git push -u origin feature/sidebar - Envia o PR para o repositório remoto;
 
-## git commit -m"feature/footer: criação da documentação do footer"
+## PR - GitHud:
 
-## git push -u origin feature/footer
+### Title: feature/sidebar: criação da documentação do sidebar;
 
-## git checkout sprint
+### Description: Criação da documentação do sidebar;
 
-## git merge feature/footer
+## git checkout feature/footer - Muda para a branch feature/footer;
 
-## git merge feature/header
+## touch footer.txt  - Cria o arquivo sidebar.txt;
 
-## git merge feature/login
+## git add footer.txt - Adiciona o footer.txt à stage;
 
-## git checkout main
+## git commit -m"feature/footer: criação da documentação do footer" - Versiona o arquivo da stage;
 
-## git merge sprint
+## git push -u origin feature/footer - Envia o PR para o repositório remoto;
+
+## PR - GitHud:
+
+### Title: feature/footer: criação da documentação do footer;
+
+### Description: Criação da documentação do footer;
+
+## git checkout sprint - Muda para a branch sprint;
+
+## git merge feature/footer - Faz merge da branch feature/footer na branch sprint;
+
+## git merge feature/header - Faz merge da branch feature/footer na branch sprint;
+
+## Abre o terminal vi:
+
+### Comando i para inserção de informação;
+
+### feature/header - informação adicionada;
+
+### Comando esc para sair do modo de inserção;
+
+### Comando :qw - Sai e adicionada a informação;
+
+## git merge feature/sidebar - Faz merge da branch feature/sidebar na branch sprint;
+
+## Abre o terminal vi:
+
+### Comando i para inserção de informação;
+
+### feature/header - informação adicionada;
+
+### Comando esc para sair do modo de inserção;
+
+### Comando :qw - Sai e adicionada a informação;
+
+## git checkout main - Muda para branch main;
+
+## git merge sprint - Faz merge da branch sprint na branch main;
+
+## Abre o terminal vi:
+
+### Comando i para inserção de informação;
+
+### feature/header - informação adicionada;
+
+### Comando esc para sair do modo de inserção;
+
+### Comando :qw - Sai e adicionada a informação;
