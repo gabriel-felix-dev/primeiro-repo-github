@@ -1,0 +1,13 @@
+# git branch <nome da branch> 
+
+    - Cria uma branch.
+    - Se for utilizado apenas o git branch aparecerá as branchs do repositório e indicará em qual branch o usuário está.
+
+# git checkout <nome da branch>
+
+    - Muda para uma branch específica.
+    - Diferente do git branch, apenas o comando checkout não faz nada.
+
+# git checkout -b <nome da branch>
+
+    - Cria para uma branch e já altera para ela. Essa linha de comando é a soma das duas primeiras. asads
