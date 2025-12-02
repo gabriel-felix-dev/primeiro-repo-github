@@ -107,3 +107,55 @@
 ### Comando esc para sair do modo de inserção;
 
 ### Comando :qw - Sai e adicionada a informação;
+
+git log --oneline --graph - Informa os commits de forma resumida e com uma representação gráfica das branches;
+
+* 5c24211 (HEAD -> main, origin/main, origin/HEAD) feat/main: Atualização das informações do workflow da atividade Dia04
+*   5dde9e0 Merge branch 'sprint'
+|\
+| *   f3a0807 (sprint) Merge branch 'feature/sidebar' into sprint
+| |\
+| | * c5ad6b8 (origin/feature/sidebar, feature/sidebar) feature/sidebar: criação da documentação do sidebar
+| * |   67452c8 Merge branch 'feature/header' into sprint
+| |\ \
+| | * | 8fcc5de (origin/feature/header, feature/header) feature/header: criação da documentação do header
+| | |/
+| * / c3a62c8 (origin/feature/footer, feature/footer) feature/footer: criação da documentação do footer
+| |/
+* / aef5dc1 feat/main: Documentação do workflow para o exercicio final da atividade Dia04
+|/
+* 88e124e feat/main: Atualização dos arquivos da atividade Dia04.
+*   50536d9 Merge pull request #1 from gabriel-felix-dev/feature/readme-update
+|\  
+| * 704f457 (origin/feature/readme-update) feature/readme-update: Atualizações solicitadas realizadas
+| * b5acabd feature/readme-update: Atualização no README informando que a pasta da atividade Dia04 foi criada.
+| * eab1f81 (feature/login) feature/login: criação da documentação da feature login
+| * d365092 (feature/calculadora) feature/calculadora: criação da documentação da calculadora
+| * 925b5ef feature/menu: criação da documentação do menu
+|/
+* 8d9d547 feat/main: atualização da README do repositório
+* 20bb504 feat/main: remoção de arquivos duplicados
+* 392e011 feat/main: organização dos arquivos da atividade Dia03
+* 10e7fa2 feat/main: organização dos arquivos da atividade Dia02
+* 461961f feat-main: respostas fluxo completo da atividade 03
+*   439657d feat/main: Resolução do conflito
+|\
+| * b715a03 Alteração do README
+* | c8edacc feat/main: Alteração na Readme
+|/
+* 8dd8ef7 Adiciona arquivo criado no GitHub
+* 451f489 feat/main: Criação do arquivo de colaboraçaõ
+* 8fa5eff feat/main: Alteração no clone-teste.txt
+* 995e1d2 feat/main: Atualização da documentação da conexao-remoto
+* 4708f97 feat/main: Versionamento dos arquivos alterados.
+* 909acfa feat/master: Versionamento de arquivos
+* cd75a24 Adicionando o gitignore
+* 5bc8615 feat/exercico-5: Novo comando adicionado aos arquivos do projeto.
+* ef2713b feat/exercico-5: Novo comando adicionado aos documentos dos códigos
+* 81b677c feat/exercicio-5: Adicona os arquivos de código
+* fd19afd feat/exercicio-5: Adicona a documentação do projeto
+* 86974b7 feat/exercicio-4: Marca primeira tarefa como concluída
+* 77ef090 feat/exercicio-4: Adiciona mais duas tarefas à lista
+* a3c608b feat/exercicio-4: Adiciona lista de tarefas iniciais
+* 07e4a4e feat/exercicio-3: Adicona os arquivos README, arquivo1 e arquivo2
+* af3afd9 feat/exercicio-03: Adiciona README inicial do projeto
