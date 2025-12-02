@@ -1,0 +1,37 @@
+# git add colacoracao.txt 
+
+    - Adicona o arquivo de colacoração à stage
+
+# git commit -m"feat/main: Criação do arquivo de colaboraçaõ"
+
+    - Versiona o arquivo de colacoração
+
+# git push
+
+    - Envia o commit para o repositório remoto
+
+# git pull
+
+    - Baixa as mudanças do repositório remoto.
+
+# git long --oneline 
+
+    - Mostra todos os commits de forma resumida:
+
+        8dd8ef7 (HEAD -> main, origin/main, origin/HEAD) Adiciona arquivo criado no GitHub
+        451f489 feat/main: Criação do arquivo de colaboraçaõ
+        8fa5eff feat/main: Alteração no clone-teste.txt
+        995e1d2 feat/main: Atualização da documentação da conexao-remoto
+        4708f97 feat/main: Versionamento dos arquivos alterados.
+        909acfa feat/master: Versionamento de arquivos
+        cd75a24 Adicionando o gitignore
+        5bc8615 feat/exercico-5: Novo comando adicionado aos arquivos do projeto.
+        ef2713b feat/exercico-5: Novo comando adicionado aos documentos dos códigos
+        81b677c feat/exercicio-5: Adicona os arquivos de código
+        fd19afd feat/exercicio-5: Adicona a documentação do projeto
+        86974b7 feat/exercicio-4: Marca primeira tarefa como concluída
+        77ef090 feat/exercicio-4: Adiciona mais duas tarefas à lista
+        a3c608b feat/exercicio-4: Adiciona lista de tarefas iniciais
+        07e4a4e feat/exercicio-3: Adicona os arquivos README, arquivo1 e arquivo2
+        af3afd9 feat/exercicio-03: Adiciona README inicial do projeto
+
